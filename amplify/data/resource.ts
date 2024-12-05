@@ -1,3 +1,14 @@
+/**
+ * This file defines an Amplify Backend schema for a chat application.
+ * It includes:
+ * - A 'chat' conversation model using Claude 3.5 Sonnet AI, with owner-based authorization.
+ * - A 'chatNamer' generation model using Claude 3 Haiku AI for creating descriptive chat names.
+ * - Schema type export for client-side use.
+ * - Data configuration with user pool as the default authorization mode.
+ *
+ * The schema utilizes AWS Amplify's backend services for AI-powered conversations and name generation.
+ */
+
 import { type ClientSchema, a, defineData } from "@aws-amplify/backend";
 
 const schema = a.schema({

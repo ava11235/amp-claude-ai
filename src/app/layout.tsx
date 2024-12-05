@@ -22,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body {...theme.containerProps({ colorMode })}>
         <Layout>
+        <p>TEST 123</p>
           <ConfigureAmplify />
 
           <Sidebar>
