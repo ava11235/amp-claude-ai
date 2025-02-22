@@ -1,14 +1,6 @@
-# Amplify AI Example: Claude AI
+# Amplify AI Chat example
 
-This is a NextJS application that is built like Claude.ai or ChatGPT where you can see past conversations and resume conversations.
-
-This example uses:
-
-- Amplify Gen2
-- NextJS App router
-- Amplify UI components
-
-## Getting Started
+AI Chatbot can see past conversations and resume conversations. Secure login with Amazon Cognito.
 
 ### Prerequisites
 
@@ -21,3 +13,6 @@ This example uses:
 2. Install the dependencies with your favorite Javscript package manager. For example, `npm install`
 3. Run `npx ampx sandbox` to spin up a sandbox cloud backend
 4. Run `npm run dev` to start up NextJS locally
+
+### Deployment
+Deploy on AWS Amplify Hosting
